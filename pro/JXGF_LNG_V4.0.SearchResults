@@ -1,0 +1,5 @@
+---- stopreasonbuf Matches (4 in 3 files) ----
+Lngctrl.c (e:\checkout\jxgf_code_svn\jxgf_lng_v4.0\jxgf_lng_v4.0\src):    Fyd12864DispPrintf(3,1,"%s",stopreasonbuf[stopreason]);
+Printer.c (e:\checkout\jxgf_code_svn\jxgf_lng_v4.0\common\drivers\source):uint8_t stopreasonbuf[][16]=
+Printer.c (e:\checkout\jxgf_code_svn\jxgf_lng_v4.0\common\drivers\source):        WHPrintf("Í£»úÔ­Òò:%s\r\n", stopreasonbuf[fuelrecordinfo.stopreason]);
+Printer.h (e:\checkout\jxgf_code_svn\jxgf_lng_v4.0\common\drivers\include):extern  uint8_t stopreasonbuf[][16];
