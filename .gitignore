@@ -1,4 +1,6 @@
 pro/
+.uvguix*
+.uvoptx
 JXGF_LNG_V4.0/Listings
 JXGF_LNG_V4.0/output
 JXGF_LNG_V4.0/Listings
