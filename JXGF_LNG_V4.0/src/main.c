@@ -371,6 +371,7 @@ void Task1sProcess(void)
 }
 
 
+
 /*********************************************************************************************************
 ** 函数名称：main
 ** 函数描述：主函数,LPC1788模板
@@ -416,7 +417,6 @@ int main(void)
     }
     if(count==4) globalvar.eepromflag=1;
     else    globalvar.eepromflag=0;    
-    MsDelay(100);
     MsDelay(100);
     UARTInit(0, 9600);      	                                     //读卡器、打印机
 	UARTInit(1, sysparas.modbusbaud);     	                         //流量计
